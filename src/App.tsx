@@ -1,10 +1,12 @@
 import "./App.css";
-import Login from "./components/Login/Login";
+import { Home } from "./pages";
+
+// import { Login } from "./components";
 
 const App = () => {
   return (
     <div className="bg-gray-100">
-      <Login />
+      <Home />
     </div>
   );
 };
